@@ -1,0 +1,75 @@
+
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+
+// Bootstrap
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "custom";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// material design bootstrap
+@import "mdb/modal";
+
+input#sidebar-toggle{
+    display: none;
+}
+
+div#page-container{
+
+    div#main-sidebar{
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    div#main-navbar{
+        background-color: #666;
+        color: #fff;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 300px;
+        width: calc(100% - 300px);
+        transition: all 0.3s ease-in-out;
+
+        > div {
+            height: 50px;
+            padding: 0 20px;
+        }
+
+        label[for="sidebar-toggle"]{
+            cursor: pointer;
+            font-size: 24px;
+        }
+    }
+    
+    div#page-content{
+        background-color: #ccc;
+        margin-left: 300px;
+        transition: all 0.3s ease-in-out;
+    }
+
+}
+
+input#sidebar-toggle:checked + div#page-container{
+
+    div#main-sidebar{
+        width: 0px;
+    }
+
+    div#main-navbar{
+        left: 0px;
+        width: 100%;
+    }
+
+    div#page-content{
+        margin-left: 0px;
+    }
+
+}
