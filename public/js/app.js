@@ -800,6 +800,7 @@ window.Vue = __webpack_require__(36);
 // components 
 __webpack_require__(37);
 __webpack_require__(47);
+__webpack_require__(48);
 
 Vue.component('example', __webpack_require__(38));
 
@@ -45950,6 +45951,21 @@ var modal = function modal() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (modal());
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+var sidebar = function sidebar() {
+
+    $(function () {
+        var mainSidebarDiv = $('div#main-sidebar');
+    });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (sidebar());
 
 /***/ })
 /******/ ]);

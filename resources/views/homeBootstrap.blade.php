@@ -18,7 +18,17 @@
         <div id="page-container">
 
             <div id="main-sidebar">
-                Sidebar
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Opções 1</a>
+                        <ul class="menu">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
 
             <div id="main-navbar">

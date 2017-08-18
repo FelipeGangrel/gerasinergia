@@ -523,7 +523,8 @@ mark,
   background-color: #fcf8e3;
 }
 
-.list-unstyled {
+.list-unstyled,
+div#page-container div#main-sidebar ul.menu {
   padding-left: 0;
   list-style: none;
 }
@@ -9343,6 +9344,11 @@ div#page-container div#main-sidebar {
   width: 300px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+div#page-container div#main-sidebar ul.menu:not(:first-child) {
+  max-height: 0px;
+  overflow: hidden;
 }
 
 div#page-container div#main-navbar {

@@ -18,11 +18,14 @@ window.Vue = require('vue');
  // components 
 require('./components/bootstrap/tooltips');
 require('./components/mdb/modal');
+require('./components/sidebar');
 
 Vue.component('example', require('./components/vue/Example.vue'));
 
 const app = new Vue({
     el: '#app'
 });
+
+
 
 

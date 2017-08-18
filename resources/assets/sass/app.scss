@@ -26,6 +26,16 @@ div#page-container{
         bottom: 0;
         width: 300px;
         transition: all 0.3s ease-in-out;
+
+        ul.menu{
+            @extend .list-unstyled;
+            &:not(:first-child){
+                max-height: 0px;
+                overflow: hidden;
+            }
+        }
+
+        
     }
 
     div#main-navbar{
