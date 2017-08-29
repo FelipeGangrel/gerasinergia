@@ -22,3 +22,6 @@ Route::get('/login', function () {
 Route::get('/termos', function () {
     return view('termos');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
