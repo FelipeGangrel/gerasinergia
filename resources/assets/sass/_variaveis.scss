@@ -1,0 +1,26 @@
+// SINERGIA ANTIGO
+
+//-------cores-------
+//basicas
+$laranja:					#f79633;
+$laranja-claro:             #f1c40f;
+
+
+//carga status
+$carga-cancelado-background:								#555;
+$carga-entregue-background:									#2e75b5;
+$carga-entrega-confirmada-background:						#2ecc71;
+$carga-em-transito-background:								$laranja-claro;
+$carga-aguardando-coleta-background:						#e67e22;
+$carga-em-negociacao-background:							#8e44ad;
+$carga-expirado-background:									#bdc3c7;
+$carga-aberto-background:									#e74c3c;
+
+
+//veiculos status
+$veiculo-disponivel:										#2ecc71;
+$veiculo-com-sinergia:										$laranja-claro;
+$veiculo-em-negociacao:										#8e44ad;
+$veiculo-indisponivel:										#bdc3c7;
+$veiculo-desativado:										#555;
+$veiculo-inativado:                                         #555;

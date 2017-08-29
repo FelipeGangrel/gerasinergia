@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('homeBootstrap');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/termos', function () {
+    return view('termos');
+});

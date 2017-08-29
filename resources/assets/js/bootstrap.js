@@ -12,6 +12,10 @@ try {
     window.$ = window.jQuery = require('jquery');
     Popper = require('popper.js').default;
     require('bootstrap');
+    require('jquery.nicescroll');
+
+    // require('nanoScroller');
+    // require('nanoScroller/bin/css/nanoscroller.css');
 
 } catch (e) {}
 

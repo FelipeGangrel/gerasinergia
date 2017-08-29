@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
+    "jquery.nicescroll": "^3.7.6",
     "popper.js": "^1.12.3"
   }
 }
