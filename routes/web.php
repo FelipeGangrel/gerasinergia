@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('homeBootstrap');
-});
+// Route::get('/', function () {
+//     return view('homeBootstrap');
+// });
 
 Route::get('/login', function () {
     return view('login');
@@ -22,6 +22,12 @@ Route::get('/login', function () {
 Route::get('/termos', function () {
     return view('termos');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

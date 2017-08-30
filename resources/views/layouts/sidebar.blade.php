@@ -53,6 +53,23 @@
                 </li>
                 <li class="treeview">
                     <a href="#">
+                        <i class="fa fa-cubes" aria-hidden="true"></i> <span>Monitoramento Externo</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="#">Nova Carga</a></li>
+                        <li><a href="#">Todas Cargas</a></li>
+                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga em-transito">Em trânsito</a></li>
+                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga entregue">Entregues</a></li>
+                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga entrega-confirmada">Entrega confirmada</a></li>
+                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga aguardando-pagamento"><i class="fa fa-hourglass-end" aria-hidden="true"></i>Aguardando pagamento</a></li>
+                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga pagamento-confirmado"><i class="fa fa-usd" aria-hidden="true"></i>Pagamento Confirmado</a></li>
+                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga cancelado">Canceladas</a></li>
+                        <li><a href="#" data-alt='["cliente-externo"]' class="carga">Novo Cliente</a></li>
+                        <li><a href="#" data-alt='["cliente-externo"]' class="carga">Clientes</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
                         <i class="fa fa-building"></i> <span>Empresas</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
@@ -147,23 +164,6 @@
                     <ul class="treeview-menu">
                         <li><a href="#">Todos os perfis</a></li>
                         <li><a href="#">Novo perfil</a></li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-cubes" aria-hidden="true"></i> <span>Monitoramento Externo</span> <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#">Nova Carga</a></li>
-                        <li><a href="#">Todas Cargas</a></li>
-                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga em-transito">Em trânsito</a></li>
-                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga entregue">Entregues</a></li>
-                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga entrega-confirmada">Entrega confirmada</a></li>
-                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga aguardando-pagamento"><i class="fa fa-hourglass-end" aria-hidden="true"></i>Aguardando pagamento</a></li>
-                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga pagamento-confirmado"><i class="fa fa-usd" aria-hidden="true"></i>Pagamento Confirmado</a></li>
-                        <li><a href="#" data-alt='["carga-externa"]' class="bullet carga cancelado">Canceladas</a></li>
-                        <li><a href="#" data-alt='["cliente-externo"]' class="carga">Novo Cliente</a></li>
-                        <li><a href="#" data-alt='["cliente-externo"]' class="carga">Clientes</a></li>
                     </ul>
                 </li>
                 <li class="treeview">

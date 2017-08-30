@@ -23,6 +23,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // $this->app->bind(\App\Repositories\UserRepositoryInterface::class, function($app) {
+        $this->app->bind(\App\Repositories\Contracts\UsuarioRepositoryContract::class, function($app) {
+            return new \App\Repositories\UsuarioRepository(
+                $app['em'],
+                $app['em']->getClassMetaData(\App\Entities\Usuario::class)
+            );
+        });
     }
 }

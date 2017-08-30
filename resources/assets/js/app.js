@@ -26,9 +26,11 @@ sidebar('div#main-sidebar .menu', 300);
 
 
 Vue.component('example', require('./components/vue/Example.vue'));
+// Vue.component('teste', require('./components/vue/teste.vue'));
 const app = new Vue({
     el: '#app'
 });
+
 
 $(document).ready(function () {
 

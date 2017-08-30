@@ -11,14 +11,24 @@
 |
 */
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+// $factory->define(App\Entities\Usuario::class, function(\Faker\Generator $faker) {
+//     static $password;
+
+//     return [
+//         'nome' => $faker->name,
+//         'email' => $faker->unique()->safeEmail,
+//         'password' => $password ?: $password = bcrypt('secret'),
+//         'remember_token' => str_random(10),
+//     ];
+// });
+
+$factory->define(App\Entities\Usuario::class, function(\Faker\Generator $faker) {
     static $password;
 
     return [
-        'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
-        'password' => $password ?: $password = bcrypt('secret'),
+        'nome' => 'admin',
+        'email' => 'admin@admin.com',
+        'password' => $password ?: $password = bcrypt('sinergia'),
         'remember_token' => str_random(10),
     ];
 });

@@ -9944,6 +9944,7 @@ div#page-container div#page-content header .modoVisualizacao span {
 div#page-container div#page-content header .modoVisualizacao a {
   float: left;
   margin-left: 10px;
+  border-radius: 900px;
 }
 
 div#page-container div#page-content header .modoVisualizacao a i {
@@ -9951,13 +9952,17 @@ div#page-container div#page-content header .modoVisualizacao a i {
   font-size: 15px;
   line-height: 25px;
   color: #BCBDBE;
-  border-radius: 900px;
   text-align: center;
   margin-right: 0;
 }
 
-div#page-container div#page-content header .modoVisualizacao a.active i {
+div#page-container div#page-content header .modoVisualizacao a.active {
   background: #F79633;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+div#page-container div#page-content header .modoVisualizacao a.active i {
   color: #FFF;
 }
 
@@ -10135,7 +10140,6 @@ body {
 .login.main .boxLogin .body,
 .login.main > .container-fluid .boxLogin .body,
 .login.main > .container-fluid > .row .boxLogin .body {
-  height: 200px;
   padding-bottom: 30px;
 }
 
@@ -10186,31 +10190,37 @@ div#page-container div#main-sidebar .sidebar-menu li a,
 div#page-container div#main-sidebar .sidebar-menu li.active > a,
 div#page-container div#main-sidebar .sidebar-menu .treeview-menu > li > a:hover,
 div#page-container div#page-content header,
+div#page-container div#page-content header .modoVisualizacao a,
 .termos_de_uso .cabecalho ul li a,
 .transition:link,
 div#page-container div#main-sidebar .sidebar-menu li a:link,
 div#page-container div#main-sidebar .sidebar-menu .treeview-menu > li > a:link:hover,
 div#page-container div#page-content header:link,
+div#page-container div#page-content header .modoVisualizacao a:link,
 .termos_de_uso .cabecalho ul li a:link,
 .transition:active,
 div#page-container div#main-sidebar .sidebar-menu li a:active,
 div#page-container div#main-sidebar .sidebar-menu .treeview-menu > li > a:active:hover,
 div#page-container div#page-content header:active,
+div#page-container div#page-content header .modoVisualizacao a:active,
 .termos_de_uso .cabecalho ul li a:active,
 .transition:focus,
 div#page-container div#main-sidebar .sidebar-menu li a:focus,
 div#page-container div#main-sidebar .sidebar-menu .treeview-menu > li > a:focus:hover,
 div#page-container div#page-content header:focus,
+div#page-container div#page-content header .modoVisualizacao a:focus,
 .termos_de_uso .cabecalho ul li a:focus,
 .transition:visited,
 div#page-container div#main-sidebar .sidebar-menu li a:visited,
 div#page-container div#main-sidebar .sidebar-menu .treeview-menu > li > a:visited:hover,
 div#page-container div#page-content header:visited,
+div#page-container div#page-content header .modoVisualizacao a:visited,
 .termos_de_uso .cabecalho ul li a:visited,
 .transition:hover,
 div#page-container div#main-sidebar .sidebar-menu li a:hover,
 div#page-container div#main-sidebar .sidebar-menu .treeview-menu > li > a:hover,
 div#page-container div#page-content header:hover,
+div#page-container div#page-content header .modoVisualizacao a:hover,
 .termos_de_uso .cabecalho ul li a:hover {
   -webkit-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important;
